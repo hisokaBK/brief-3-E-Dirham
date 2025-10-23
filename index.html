@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>e-Dirham Nav</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header>
+    
+           <nav>
+
+               <div class="nav-logo">
+                 <img src="./image/b-logo.png" alt="logo-e-dirham">
+               </div>
+           
+               <ul class="nav-links" id="navMenu" data-visible="false">
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">Fonctionnement</a></li>
+                 <li><a href="#">Sécurité</a></li>
+                 <li><a href="#">Inclusion & Impact</a></li>
+                 <li><a href="#">Actualités & Lancement</a></li>
+                 <li><a href="#" id="signin" >Sign in</a></li>
+               </ul>
+           
+               <div class="menu-berg" id="menuBtn">
+                    <i class="fa-solid fa-bars" style="color: #FFFF;"></i>
+               </div>
+       
+             </nav>
+       
+             <div style="height: 60px; background-color: #1e1f25;">  </div>
+           
+    </header>
+
+      <main>
+          
+      </main>
+  
+    <footer >
+         <div class="footer-top">
+             <div class="footer-logo">
+               <img class="b-logo" src="./image/b-logo.png" alt="e-Dirham logo" />
+             </div>
+             <p class="footer-desc">Le e-Dirham, votre monnaie à portée de clic</p>
+         </div>
+     
+       <div class="footer">
+       
+           <div class="footer-content">
+         
+                 <div class="footer-section">
+                   <h3>Produits</h3>
+                   <ul>
+                     <li><a href="#">Pay</a></li>
+                     <li><a href="#">Acheter e-Dirham</a></li>
+                     <li><a href="#">Carte e-Dirham</a></li>
+                     <li><a href="#">Blog</a></li>
+                   </ul>
+                 </div>
+          
+                 <div class="footer-section">
+                   <h3>Company</h3>
+                   <ul>
+                     <li><a href="#">About us</a></li>
+                     <li><a href="#">Contact</a></li>
+                     <li><a href="#">News</a></li>
+                     <li><a href="#">Contact</a></li>
+                   </ul>
+                 </div>
+          
+                 <div class="footer-section">
+                   <h3>Social</h3>
+                   <ul>
+                     <li><a href="#">Twitter</a></li>
+                     <li><a href="#">LinkedIn</a></li>
+                     <li><a href="#">Facebook</a></li>
+                     <li><a href="#">GitHub</a></li>
+                   </ul>
+                 </div>
+          
+                 <div class="footer-section">
+                   <h3>Menu</h3>
+                   <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">Fonctionnement</a></li>
+                     <li><a href="#">Securite</a></li>
+                     <li><a href="#">Inclusion & Impact</a></li>
+                   </ul>
+                 </div>
+         
+           </div>
+         
+                  <div class="footer-bottom">
+                      <img src="./image/footer-image.png" alt="logo-e-dirham" class="footer-image" />
+                  
+                      <div class="footer-social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+           </div>
+         
+           <div class="line"></div>
+           <p class="footer-copy">e-Dirham &copy; 2025 YouCode</p>
+     
+     </footer>
+
+
+<script>
+    const menuBtn = document.getElementById('menuBtn');
+    const navMenu = document.getElementById('navMenu');
+
+    menuBtn.addEventListener('click', ()=>{
+      const isVisible = navMenu.getAttribute('data-visible');
+      
+      if (isVisible === 'false') {
+        navMenu.setAttribute('data-visible', 'true');
+       
+
+
+      } else {
+        navMenu.setAttribute('data-visible', 'false');
+      }
+    });
+</script>
+
+</body>
+</html>
