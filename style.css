@@ -7,6 +7,21 @@ body{
     background-color: #222228;
 
 }
+h1 {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+p {
+    color: #C1C0BE;
+}
+main {
+    display: grid;
+    justify-items: center;
+    background-color: #222228;
+    gap: 5vh;
+}
 
 /* -------------- NAV -------------------------- */
 
@@ -287,4 +302,275 @@ footer {
 }
 
 
-/*-------------------------------------------------------------*/
+/*--------------------------Fonctionnement Houssam------------------------------*/
+.h {
+    width: 90%;
+}
+.h__back {
+    padding-bottom: 20px;
+}
+.h__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h__sec1_p {
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.h__sec1__img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.h__sec1_p > p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 15px;
+}
+.h__cards {
+    padding-left: 7px;
+    padding-right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 200px;
+    background-color: #2B3248;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #EDC86A;
+    margin-bottom: 15px;
+}
+.h__card.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h__h5 {
+    font-size: 10px;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-align: center;
+}
+.h__cards p {
+    font-size: 12px;
+    text-align: center;
+}
+.h__cards img {
+    height: 75%;
+    width: 50%;
+    object-fit: cover;
+    border: 1px solid;
+    border-color: #EDC86A;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.h__video {
+    width: 396px;
+}
+.h__section4 {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h__section4 p {
+    font-size: 25px;
+    color: #ffffff;
+}
+.h__section4 img {
+    width: 50px;
+    height: 50px;
+}
+.h__section4-top {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h__section4-top p {
+    font-size: 25px;
+    color: #ffffff;
+}
+.h__section4-top img {
+    width: 50px;
+    height: 50px;
+}
+.h__minitit {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #F2EF9F;
+    margin-bottom: 3px;
+}
+.h__minipara1 {
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+    border-color: #EDC86A;
+}
+.h__minipara2 {
+    margin-bottom: 30px;
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+    border-color: #ffffff;
+}
+.h__au {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h__ed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h__au-bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h__ed-bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width:1024px) {
+    h1 {
+        font-size: 30px;
+    }
+    .h__sec1_p > p {
+        width: 45%;
+        
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .h__section {
+        width: 100%;
+    }
+    .h__sec1_p {
+        background-color: #222228;
+        width: 100%;
+        height: 400px;
+         
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .h__sec1__img {
+        width: 43%;
+        height: 300px;
+        padding: 0px;
+    }
+    .h__card__pc {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .h__cards {
+        margin: 15px;
+    }
+    .h__h5 {
+        font-size: 15px;
+    }
+    .h__cards p {
+    font-size: 15px;
+    }
+    .h__video {
+        width: 700px;
+        height: 400px;
+    }
+    .h__section4 {
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: center;
+        border-top: 1px solid white;
+    }
+    .h__section4-top {
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: center;
+    }
+    .h__deff {
+        display: flex;
+    }
+    .h__ed_au {
+        display: flex;
+    }
+    .h__deff__card-l {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        border-right: 1px solid white;
+        margin-bottom: 20px;
+    }
+    .h__deff__card-r {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .h__ed {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 250px;
+        border-right: 1px solid #EDC86A;
+    }
+    .h__au {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 250px;
+    }
+    .h__ed-bot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 250px;
+        border-right: 1px solid #EDC86A;
+        margin-bottom: 10px;
+    }
+    .h__au-bot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 250px;
+        margin: 10px;
+    }
+    .h__minipara2 {
+        margin-bottom: 0px;
+        border-bottom: 0px;
+    }
+    .h__minipara1 {
+        border-bottom: 0px;
+    }
+}
