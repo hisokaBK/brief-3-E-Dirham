@@ -332,8 +332,8 @@ main {
 }
 .A__hero--button, .A__lastmsg--button {
     text-decoration: none;
-    background-color: #d6990016;
-    color: white;
+    background-color: #d4af37;
+    color: black;
     border: 2px solid white;
     border-radius: 40px;
     width: 12rem;
@@ -455,14 +455,17 @@ main {
 }
 
 
-@media (min-width:700px) {
+@media (min-width:650px) {
 .A__hero--button, .A__lastmsg--button {
+    background-color: #d6990016;
+    color: white;
     width: 20rem;
     height: 4rem;
     border-width: 2px;
 }
 .A__hero--button:hover, .A__lastmsg--button:hover {
-    background-color: #ffbd164f;
+    background-color: #d4af37;
+    color: black;
 }
 .A h1 {
     font-size: 40px;
@@ -501,7 +504,7 @@ main {
 .A__temoignage__card--pic {
     width: 4rem;
 }
-.A__temoignage__card {
+.A__temoignage__card {  
     grid-template-columns: 10% 60% 30%;
     border-radius: 10px;
     row-gap: 2vh;
@@ -511,7 +514,7 @@ main {
     grid-column: 1 / -1;
 }
 .A__statistics__card, .A__benefices__card , .A__chiffres--block{
-    border-radius: 10px;
+    border-radius: 15px;
     min-height: 10vh;
     min-width: 300px;
 }
