@@ -743,6 +743,63 @@ main{
   font-size: 25px;
   text-align: start;
  }
+
+ /******** INFOGRAPHIES & CITATION **************/
+  .SecuriteInfographie__titre {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.SecuriteInfographie {
+    margin-bottom: 20px;
+    margin-left: 60px;
+ }
+ .SecuriteInfographie_titre_image {
+  width: 60px;
+  height: auto;
+ }
+ .SecuriteInfographie_titre_title {
+  font-size: 36px;
+ }
+ .SecuriteInfographie__citation {
+  align-items: start;
+  margin-left: 50px;
+ }
+ .SecuriteInfographie_Infographies_description {
+  align-items: start;
+  color: white;
+ }
+ .SecuriteInfographies__card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+ }
+ .SecuriteInfographie_Infographiescard_titre {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .SecuriteInfographie_Infographiescardtitre_image {
+  width: 150px;
+  height: auto;
+ }
+ .SecuriteInfographie_Infographiescard_description {
+  text-align: center;
+ }
+ .SecuriteInfographie_Infographiescardtitre_title{
+  text-align: center;
+ }
+ .SecuriteInfographie_Infographies_card{
+  background-color: #2B3248;
+  height: 250px;
+  margin-right: 50px;
+  padding: 20px;
+ }
+ .SecuriteInfographie_citation_nom{
+  color: white;
+  font-size: 25px;
+ }
  
  }
 
