@@ -282,3 +282,293 @@ footer {
 
 
 /*-------------------------------------------------------------*/
+
+
+ /***********************************STYLE SECTION SECURITE & CONFIANCE***********************************************/
+
+
+
+ h1 {
+   font-size: 20px;
+   color: #ffffff;
+   text-align: center;
+ }
+
+ p {
+   color: #C1C0BE;
+ }
+
+ /****/
+
+ .S__Securite {
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+
+ /************ securite hero****************/
+ .SecuriteHero {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: start;
+   margin-bottom: 20px;
+   margin-left: 10px;
+ }
+
+ .SecuriteHero__titre {
+   margin-top: 10px;
+ }
+
+ .SecuriteHero__description {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   gap: 10px;
+ }
+
+ .SecuriteHero__image {
+   align-self: center;
+ }
+
+ .SecuriteHero__button {
+   border-radius: 10px;
+   color: black;
+   background-color: #EDC86A;
+   width: 141px;
+   height: 37px;
+   text-decoration: none;
+   align-self: flex-start;
+
+ }
+ 
+ /************ Responsive Securite Hero ************/
+@media only screen and (min-width: 769px) {
+ .SecuriteHero {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: start;
+   margin-bottom: 20px;
+   margin-left: 60px;
+ }
+ 
+ .SecuriteHero__titre {
+   margin-top: 10px;
+ }
+  .SecuriteHero__titre h1{
+    font-size: 36px;
+    text-align: center;
+  }
+ .SecuriteHero__description{
+  
+    margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+ }
+ .SecuriteHero__image{
+  height: auto;
+  width: 40%;
+ }
+
+  .s_devBurt{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    
+  }
+  .SecuriteHero__text{
+    font-size: 24px;
+  }
+  .SecuriteHero__button{
+    width: 50%;
+    height: 70px;
+    font-size: 20px;
+  }
+}
+
+ /************ Securite Regulation****************/
+ .SecuriteRegulation {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   justify-content: space-around;
+   align-items: center;
+   margin-left: 10px;
+ }
+
+ .SecuriteRegulation__titre {
+   display: flex;
+   justify-content: start;
+   gap: 5px;
+ }
+
+ .SecuriteRegulation__titre h1 {
+   text-align: start;
+ }
+
+ .SecuriteRegulation__description {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   margin-left: 15px;
+   gap: 14px;
+
+ }
+
+ .SecuriteRegulation__description__text {}
+
+ .SecuriteRegulation__description__liste {
+   margin-left: 12px;
+   font-size: 14px;
+   color: #C1C0BE;
+ }
+
+ /************ Securite Technologies****************/
+ .SecuriteTechnologies {
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   gap: 10px;
+ }
+
+ .SecuriteTechnologies__titre {
+   display: flex;
+   justify-content: start;
+   margin-left: 10px;
+ }
+
+ .SecuriteTechnologies__text {
+   margin-left: 20px;
+ }
+
+ .SecuriteTechnologies__cards {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 12px;
+ }
+
+ .SecuriteTechnologies__cards__card {
+   width: 253px;
+   background-color: #2B3248;
+   border-radius: 6px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 213px;
+   gap: 10px;
+ }
+
+ .SecuriteTechnologies__cards__card__title {
+   font-size: 14px;
+   font-family: "Malgun Gothic";
+   color: white;
+ }
+
+ .SecuriteTechnologies__cards__card__description {
+   font-size: 12px;
+   text-align: center;
+ }
+
+ /************ Securite Engagement BAM****************/
+ .SecuriteEngagement {
+   margin-left: 10px;
+   margin-top: 25px;
+   margin-bottom: 20px;
+ }
+
+ .SecuriteEngagement__titre {
+   display: flex;
+   gap: 6px;
+
+   margin-bottom: 10px;
+ }
+
+ .SecuriteEngagement__titre__title {
+   margin-top: 7px;
+ }
+
+ .SecuriteEngagement__description {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+   width: 90%;
+   margin-left: 15px;
+ }
+
+ /************ Securite citaion et Infographie****************/
+ 
+
+    .SecuriteInfographie {
+      position: relative;
+      top: 10px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+
+    }
+
+    .SecuriteInfographie__titre {
+      display: flex;
+      justify-content: space-around;
+
+    }
+
+    .SecuriteInfographie__citation {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 15px;
+      align-items: center;
+    }
+
+    .SecuriteInfographie__citation__nom {
+      color: #C1C0BE;
+      font-family: "Malgun Gothic";
+      font-size: 12px;
+    }
+    .SecuriteInfographie__citation__parole {
+      color: #C1C0BE;
+      font-family: "Malgun Gothic";
+      font-size: 14px;
+      width: 90%;
+    }
+
+    .SecuriteInfographie__Infographies {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    .SecuriteInfographie__Infographies__description {
+      width: 90%;
+    }
+    .SecuriteInfographie__Infographies__card{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .SecuriteInfographie__Infographies__card__titre{
+      font-size: 15px;
+      display: flex;
+      gap: 5px;
+    }
+    .SecuriteInfographie__Infographies__card__titre__title{
+      font-size: 15px;
+      font-family: "Malgun Gothic";
+      color: white;
+    }
+ /*********************************************STYLE SECTION SECURITE & CONFIANCE****************************************/
