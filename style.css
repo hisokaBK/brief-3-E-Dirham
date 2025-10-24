@@ -452,7 +452,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
-@media (min-width:1024px) {
+@media (min-width:769px) {
     h1 {
         font-size: 30px;
     }
