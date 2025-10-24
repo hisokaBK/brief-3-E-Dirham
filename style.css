@@ -1,287 +1,301 @@
- * { margin:0; padding:0; }
+ * {
+   margin: 0;
+   padding: 0;
+ }
 
-body{
-    width : 100%;
-    min-height: 100vh;
-    font-family: "Malgun Gothic";
-    background-color: #222228;
+ body {
+   width: 100%;
+   min-height: 100vh;
+   font-family: "Malgun Gothic";
+   background-color: #222228;
 
-}
+ }
 
-/* -------------- NAV -------------------------- */
+ /* -------------- NAV -------------------------- */
 
-    nav {
-      font-family: Malgun Gothic;
-      background:#1e1f25;
-      color:white;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      padding:12px 24px;
-      position:fixed;
-      top:0; left:0;
-      width:100%;
-      height: 60px;
-      z-index:100;
-      box-sizing: border-box;
-    }
+ nav {
+   font-family: Malgun Gothic;
+   background: #1e1f25;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 12px 24px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 60px;
+   z-index: 100;
+   box-sizing: border-box;
+ }
 
-    .logo {
-      display:flex;
-      align-items:center;
-      gap:8px;
-    }
-    .logo .icon {
-      font-weight:bold;
-      font-size:24px;
-      color:#d4af37;
-    }
-    .logo span {
-      font-family:"Times New Roman", serif;
-      font-size:18px;
-      color:white;
-    }
+ .logo {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+ }
 
-    .nav-links {
-      display:flex;
-      list-style:none;
-      gap:24px;
-    }
-    .nav-links a {
-      text-decoration:none;
-      color:white;
-      font-size:13px;
-      transition:0.3s;
-    }
-    .nav-links a:hover {
-      color:#d4af37;
-    }
+ .logo .icon {
+   font-weight: bold;
+   font-size: 24px;
+   color: #d4af37;
+ }
 
-    #signin {
-      background:#ffffff00;      
-      border: 1px solid;
-      padding:2px 20px;
-      border-radius: 14px;
-      font-weight:600;
-      margin-left: 35px;
-      transition:0.3s;
-    }
-   
-    
-    #signin:hover {
-      background:#d4af37;
-      color: #1e1f25;
-    }
+ .logo span {
+   font-family: "Times New Roman", serif;
+   font-size: 18px;
+   color: white;
+ }
 
-    .menu-berg {
-      display:none;
-      cursor:pointer;
-      font-size: 24px;
-    }
- 
-    @media (max-width:480px){
-        
-      .nav-links {
-        display:none;
-        flex-direction:column;
-        position:absolute;
-        top:50px;
-        right:0;
-        background:#1e1f25;
-        width:100%;
-        padding:10px 0;
-        border-top:1px solid rgba(255,255,255,0.1);
-      }
-      .nav-links[data-visible="true"] {
-        display:flex;
-      }
-      .nav-links li {
-        text-align:center;
-        padding:10px 0;
-      }
-      .menu-berg {
-        display:block;
-      }
-      #signin{
-          margin-left: 0px;
-      }
-    }
+ .nav-links {
+   display: flex;
+   list-style: none;
+   gap: 24px;
+ }
 
-/* -------------- Footer -------------------------- */
+ .nav-links a {
+   text-decoration: none;
+   color: white;
+   font-size: 13px;
+   transition: 0.3s;
+ }
 
-footer {
-  font-family: Malgun Gothic;
-  background-color: #000;
-  color: #fff;
-  padding: 40px 20px 40px 80px;
-  border-top: 1px solid #222;
-}
+ .nav-links a:hover {
+   color: #d4af37;
+ }
 
-.footer-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-  padding: 22px 0px;
-}
-
-.nav-logo img , .footer-logo img {
-  width: 120px;
-  margin-top: 6px;
-}
-
-.footer-desc {
-  color: #ccc;
-  font-size: 15px;
-  font-family:"Malgun Gothic";
-  margin-right: 203px;
-}
-
-.footer-content {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
-  margin-bottom: 40px;
-}
-
-.footer-section h3 {
-  color: #d4a017;
-  font-weight: 700;
-  margin-bottom: 12px;
-  font-size: 18px;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin: 6px 0;
-}
-
-.footer-section ul li a {
-  color: white;
-  text-decoration: none;
-  transition: 0.3s;
-  font-size: 15px;
-}
-
-.footer-section ul li a:hover {
-  color: #d4a017;
-}
-
-.footer-bottom {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 5px;
-  padding-bottom: 22px;
-}
-
-.footer-image {
-  display: flex;
-  height: 130px;
-}
-
-.footer-social-icons {
-  display: flex;
-  gap: 20px;
-  border: 1px solid white;
-  padding: 10px 45px;
-  border-radius: 15px;
-}
-
-.footer-social-icons a {
-  color: rgba(255, 255, 255, 0.645);
-  font-size: 18px;
-  transition: color 0.3s;
-}
-
-.footer-social-icons a:hover {
-  color: #d4a017;
-}
-
-.line{
-    width: 100%;
-    border: 1px solid rgba(255, 248, 220, 0.245);
-}
-
-.footer-copy {
-  text-align: center;
-  color: #999;
-  font-size: 13px;
-  margin-top: 25px;
- 
-}
-
-@media (max-width: 480px) {
-
-  footer {
-  padding: 10px 30px 30px 40px;
-  
-}
-
-.nav-logo img , .footer-logo img {
-  width: 90px;
-  margin-top: 6px;
-}
+ #signin {
+   background: #ffffff00;
+   border: 1px solid;
+   padding: 2px 20px;
+   border-radius: 14px;
+   font-weight: 600;
+   margin-left: 35px;
+   transition: 0.3s;
+ }
 
 
-  .footer {
-    padding: 30px 60px;
-    
-  }
+ #signin:hover {
+   background: #d4af37;
+   color: #1e1f25;
+ }
 
-  .footer-top {
-    margin-bottom: -25px;
-    padding-top: 10px;
-  
-  }
-  
+ .menu-berg {
+   display: none;
+   cursor: pointer;
+   font-size: 24px;
+ }
 
-  .footer-content {
-    grid-template-columns: 1fr;
-    gap: 10px;  
+ @media (max-width:480px) {
 
-  }
+   .nav-links {
+     display: none;
+     flex-direction: column;
+     position: absolute;
+     top: 50px;
+     right: 0;
+     background: #1e1f25;
+     width: 100%;
+     padding: 10px 0;
+     border-top: 1px solid rgba(255, 255, 255, 0.1);
+   }
 
-  .footer-section {
-    margin-bottom: 20px;
-    padding-bottom: 22px;
-    padding-left: 28px;
-    border-bottom: 1px solid rgba(142, 142, 138, 0.362);
+   .nav-links[data-visible="true"] {
+     display: flex;
+   }
 
-  }
+   .nav-links li {
+     text-align: center;
+     padding: 10px 0;
+   }
+
+   .menu-berg {
+     display: block;
+   }
+
+   #signin {
+     margin-left: 0px;
+   }
+ }
+
+ /* -------------- Footer -------------------------- */
+
+ footer {
+   font-family: Malgun Gothic;
+   background-color: #000;
+   color: #fff;
+   padding: 40px 20px 40px 80px;
+   border-top: 1px solid #222;
+ }
+
+ .footer-top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 40px;
+   padding: 22px 0px;
+ }
+
+ .nav-logo img,
+ .footer-logo img {
+   width: 120px;
+   margin-top: 6px;
+ }
+
+ .footer-desc {
+   color: #ccc;
+   font-size: 15px;
+   font-family: "Malgun Gothic";
+   margin-right: 203px;
+ }
+
+ .footer-content {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 50px;
+   margin-bottom: 40px;
+ }
+
+ .footer-section h3 {
+   color: #d4a017;
+   font-weight: 700;
+   margin-bottom: 12px;
+   font-size: 18px;
+ }
+
+ .footer-section ul {
+   list-style: none;
+   padding: 0;
+ }
+
+ .footer-section ul li {
+   margin: 6px 0;
+ }
+
+ .footer-section ul li a {
+   color: white;
+   text-decoration: none;
+   transition: 0.3s;
+   font-size: 15px;
+ }
+
+ .footer-section ul li a:hover {
+   color: #d4a017;
+ }
+
+ .footer-bottom {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-top: 5px;
+   padding-bottom: 22px;
+ }
+
+ .footer-image {
+   display: flex;
+   height: 130px;
+ }
+
+ .footer-social-icons {
+   display: flex;
+   gap: 20px;
+   border: 1px solid white;
+   padding: 10px 45px;
+   border-radius: 15px;
+ }
+
+ .footer-social-icons a {
+   color: rgba(255, 255, 255, 0.645);
+   font-size: 18px;
+   transition: color 0.3s;
+ }
+
+ .footer-social-icons a:hover {
+   color: #d4a017;
+ }
+
+ .line {
+   width: 100%;
+   border: 1px solid rgba(255, 248, 220, 0.245);
+ }
+
+ .footer-copy {
+   text-align: center;
+   color: #999;
+   font-size: 13px;
+   margin-top: 25px;
+
+ }
+
+ @media (max-width: 480px) {
+
+   footer {
+     padding: 10px 30px 30px 40px;
+
+   }
+
+   .nav-logo img,
+   .footer-logo img {
+     width: 90px;
+     margin-top: 6px;
+   }
+
+
+   .footer {
+     padding: 30px 60px;
+
+   }
+
+   .footer-top {
+     margin-bottom: -25px;
+     padding-top: 10px;
+
+   }
+
+
+   .footer-content {
+     grid-template-columns: 1fr;
+     gap: 10px;
+
+   }
+
+   .footer-section {
+     margin-bottom: 20px;
+     padding-bottom: 22px;
+     padding-left: 28px;
+     border-bottom: 1px solid rgba(142, 142, 138, 0.362);
+
+   }
 
    .footer-section a {
-      padding-left: 9px;
+     padding-left: 9px;
 
-  }
+   }
 
-  .footer-bottom {
-    flex-direction: column;
-    gap: 20px;
-  }
+   .footer-bottom {
+     flex-direction: column;
+     gap: 20px;
+   }
 
-  .footer-social-icons {
-    margin-top: 10px;
-    margin-left: -33px;
-  }
+   .footer-social-icons {
+     margin-top: 10px;
+     margin-left: -33px;
+   }
 
-  .footer-image {
-    display: none;
-  }
+   .footer-image {
+     display: none;
+   }
 
-  .footer-desc{
-      display: none;
-  }
-}
+   .footer-desc {
+     display: none;
+   }
+ }
 
 
-/*-------------------------------------------------------------*/
+ /*-------------------------------------------------------------*/
 
 
  /***********************************STYLE SECTION SECURITE & CONFIANCE***********************************************/
@@ -342,56 +356,61 @@ footer {
    align-self: flex-start;
 
  }
- 
- /************ Responsive Securite Hero ************/
-@media only screen and (min-width: 769px) {
- .SecuriteHero {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: start;
-   margin-bottom: 20px;
-   margin-left: 60px;
- }
- 
- .SecuriteHero__titre {
-   margin-top: 10px;
- }
-  .SecuriteHero__titre h1{
-    font-size: 36px;
-    text-align: center;
-  }
- .SecuriteHero__description{
-  
-    margin-top: 20px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  width: 90%;
-  align-items: center;
- }
- .SecuriteHero__image{
-  height: auto;
-  width: 40%;
- }
 
-  .s_devBurt{
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 50%;
-    
-  }
-  .SecuriteHero__text{
-    font-size: 24px;
-  }
-  .SecuriteHero__button{
-    width: 50%;
-    height: 70px;
-    font-size: 20px;
-  }
-}
+ /************ Responsive Securite Hero ************/
+ @media only screen and (min-width: 769px) {
+   .SecuriteHero {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: start;
+     margin-bottom: 20px;
+     margin-left: 60px;
+   }
+
+   .SecuriteHero__titre {
+     margin-top: 10px;
+   }
+
+   .SecuriteHero__titre h1 {
+     font-size: 36px;
+     text-align: center;
+   }
+
+   .SecuriteHero__description {
+
+     margin-top: 20px;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: space-between;
+     width: 90%;
+     align-items: center;
+   }
+
+   .SecuriteHero__image {
+     height: auto;
+     width: 40%;
+   }
+
+   .s_devBurt {
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     width: 50%;
+
+   }
+
+   .SecuriteHero__text {
+     font-size: 24px;
+   }
+
+   .SecuriteHero__button {
+     width: 50%;
+     height: 70px;
+     font-size: 20px;
+   }
+ }
 
  /************ Securite Regulation****************/
  .SecuriteRegulation {
@@ -428,6 +447,50 @@ footer {
    margin-left: 12px;
    font-size: 14px;
    color: #C1C0BE;
+ }
+
+
+ /************ Responsive Securite Regulation ************/
+ @media only screen and (min-width: 769px) {
+
+   .SecuriteRegulation__titre h1 {
+     text-align: center;
+     font-size: 36px;
+   }
+
+   .SecuriteRegulation {
+     gap: 30px;
+     margin-left: 10px;
+   }
+
+   .SecuriteRegulation__titre {
+     display: flex;
+     justify-content: start;
+     gap: 5px;
+   }
+
+   .SecuriteRegulation__titre__image {
+     width: 90px;
+   }
+
+   .SecuriteRegulation__titre h1 {
+     margin-top: 9px;
+     text-align: start;
+   }
+   .SecuriteRegulation__description{
+    width: 60%;
+    display: flex;
+   }
+   .SecuriteRegulation__description__text{
+    font-size: 20px;
+   }
+   .SecuriteRegulation__description__liste{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+   }
+
+
  }
 
  /************ Securite Technologies****************/
@@ -509,66 +572,72 @@ footer {
  }
 
  /************ Securite citaion et Infographie****************/
- 
 
-    .SecuriteInfographie {
-      position: relative;
-      top: 10px;
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 30px;
 
-    }
+ .SecuriteInfographie {
+   position: relative;
+   top: 10px;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 30px;
 
-    .SecuriteInfographie__titre {
-      display: flex;
-      justify-content: space-around;
+ }
 
-    }
+ .SecuriteInfographie__titre {
+   display: flex;
+   justify-content: space-around;
 
-    .SecuriteInfographie__citation {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      margin-bottom: 15px;
-      align-items: center;
-    }
+ }
 
-    .SecuriteInfographie__citation__nom {
-      color: #C1C0BE;
-      font-family: "Malgun Gothic";
-      font-size: 12px;
-    }
-    .SecuriteInfographie__citation__parole {
-      color: #C1C0BE;
-      font-family: "Malgun Gothic";
-      font-size: 14px;
-      width: 90%;
-    }
+ .SecuriteInfographie__citation {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-bottom: 15px;
+   align-items: center;
+ }
 
-    .SecuriteInfographie__Infographies {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      align-items: center;
-    }
-    .SecuriteInfographie__Infographies__description {
-      width: 90%;
-    }
-    .SecuriteInfographie__Infographies__card{
-      width: 80%;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .SecuriteInfographie__Infographies__card__titre{
-      font-size: 15px;
-      display: flex;
-      gap: 5px;
-    }
-    .SecuriteInfographie__Infographies__card__titre__title{
-      font-size: 15px;
-      font-family: "Malgun Gothic";
-      color: white;
-    }
+ .SecuriteInfographie__citation__nom {
+   color: #C1C0BE;
+   font-family: "Malgun Gothic";
+   font-size: 12px;
+ }
+
+ .SecuriteInfographie__citation__parole {
+   color: #C1C0BE;
+   font-family: "Malgun Gothic";
+   font-size: 14px;
+   width: 90%;
+ }
+
+ .SecuriteInfographie__Infographies {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   align-items: center;
+ }
+
+ .SecuriteInfographie__Infographies__description {
+   width: 90%;
+ }
+
+ .SecuriteInfographie__Infographies__card {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+
+ .SecuriteInfographie__Infographies__card__titre {
+   font-size: 15px;
+   display: flex;
+   gap: 5px;
+ }
+
+ .SecuriteInfographie__Infographies__card__titre__title {
+   font-size: 15px;
+   font-family: "Malgun Gothic";
+   color: white;
+ }
+
  /*********************************************STYLE SECTION SECURITE & CONFIANCE****************************************/
