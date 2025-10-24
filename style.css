@@ -882,9 +882,6 @@ footer {
 .A__temoignage__card--stars img {
     width: 1rem;
  }
-.A__opacity08 {
-    opacity: 0.8;
-}
 .A__chiffres--map {
     border-radius: 5px;
     width: 100%;
@@ -935,14 +932,14 @@ footer {
     font-size: 20px;
 }
 .A {
-    gap: 10vh;
+    gap: 15vh;
 }
 .A__statistics {
     grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
     gap: 5vh;
 }
 .A__benefices, .A__chiffres {
-    grid-template-columns: repeat(auto-fit,minmax(300px,  1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px,  1fr));
     gap: 5vh;
 }
 .A__temoignage {
@@ -980,6 +977,7 @@ footer {
 .A__lastmsg {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     justify-items: center;
 }
 .A__lastmsg--text {
