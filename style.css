@@ -220,7 +220,8 @@ footer {
 @media (max-width: 480px) {
 
   footer {
-  padding: 10px 30px 30px 40px;
+  padding: 10px 89px 30px 40px;
+  width: 70%;
   
 }
 
@@ -253,6 +254,7 @@ footer {
     padding-bottom: 22px;
     padding-left: 28px;
     border-bottom: 1px solid rgba(142, 142, 138, 0.362);
+    width: 100%;
 
   }
 
@@ -268,7 +270,7 @@ footer {
 
   .footer-social-icons {
     margin-top: 10px;
-    margin-left: -33px;
+    margin-left: -17px;
   }
 
   .footer-image {
@@ -277,6 +279,10 @@ footer {
 
   .footer-desc{
       display: none;
+  }
+
+  .line{
+      margin-left: 20px; 
   }
 }
 
