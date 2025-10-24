@@ -543,6 +543,43 @@
    text-align: center;
  }
 
+ 
+ /************ Responsive Securite Technologie ************/
+ @media only screen and (min-width: 769px) {
+
+  
+
+   .SecuriteTechnologies {
+     gap: 30px;
+     margin-left: 10px;
+     margin-top: 30px;
+   }
+   .SecuriteTechnologies__titre h1 {
+     text-align: start;
+     font-size: 36px;
+     
+     margin-top: 9px;
+   }
+
+   .SecuriteTechnologies__titre {
+     display: flex;
+     justify-content: center;
+     gap: 5px;
+   }
+
+   .SecuriteTechnologies__titre__image {
+     width: 90px;
+   }
+   .SecuriteTechnologies__text{
+    text-align: center;
+   }
+
+  .SecuriteTechnologies__cards{
+    display:flex;
+    flex-direction: row;
+  }
+ }
+
  /************ Securite Engagement BAM****************/
  .SecuriteEngagement {
    margin-left: 10px;
