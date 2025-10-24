@@ -1606,7 +1606,313 @@ main{
 
 
 
- 
- 
+ /*****************************************************************************************************/
+ * {
+    margin: 0;
+    padding: 0;
+}
 
- /*********************************************STYLE SECTION SECURITE & CONFIANCE****************************************/
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Malgun Gothic", sans-serif;
+    background-color: #222228;
+    color: #f0f0f0;
+}
+
+
+main {
+    display: grid;
+    justify-items: center;
+    gap: 5vh;
+    width: 100%;
+}
+
+
+
+
+
+
+.k__accueil {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.k__definition h1,
+.k__temoignage h1,
+.k__definition h1,
+.k__avangaves h1,
+.k__form h1 {
+    padding: 40px;
+    font-size: 25px;
+    color: #ffffff;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.k__accueil video {
+    height: 480px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.k__definition {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.k__definition img {
+    height: 200px;
+    width: 500px;
+    margin-bottom: 5px;
+    border: solid 1px darkgoldenrod ;
+    border-radius: 15px;
+}
+
+
+.k__definition p {
+    font-size: 12px;
+    line-height: 30px;
+    color: rgba(240, 255, 255, 0.52);
+    width: 90%;
+}   
+
+
+.k__h3 {          
+    background-color: #d4b8526b;  
+    padding: 15px 30px;          
+    text-align: left;   
+    cursor: pointer;         
+    transition: background-color 0.3s ease; 
+}
+
+.k__h3:active {
+    background-color: #485461; 
+}
+
+
+.k__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    align-self: center;
+    gap: 20px; 
+}
+
+
+
+
+.k__grid {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px;
+    background-color: #282a36;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}  
+
+.k__grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.k__grid img:hover {
+    transform: scale(1.05); 
+}
+
+
+
+
+.k__grid img{
+    width: 75%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.k__card:hover {
+    transform: scale(1.05);
+}
+
+
+
+.k__temoignage {
+    padding-top: 22px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.k__temoignage img {
+    width: 75%;
+    border-radius: 10px;
+}
+
+.k__temoignage p {
+    text-align: center;
+    color: rgba(240, 255, 255, 0.52);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+fieldset {
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #a9aaad;
+}
+
+
+.k__form h1 {
+    text-align: center;
+    color: #ffffff; 
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.k__form p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+
+.k__form .name,
+.k__form .mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.k__form .name label,
+.k__form .mail label {
+    text-align: left;
+    width: 80%;
+    color: black;
+    font-weight: bold;
+}
+
+.k__form .name input,
+.k__form .mail input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+.k__form input {
+    color: rgb(0, 0, 0);
+    background: #efdfc5;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 2px solid #4c577c;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}   
+
+.k__form input:hover {
+    background-color: #4c577c;
+    color: #ffffff;
+    cursor: pointer;
+}
+.k__subbut {
+    margin-top: 20px;
+    width: 30%;
+    text-align: center;
+}
+.k__button{
+      display: flex;
+      justify-content: center;
+}
+@media screen and (min-width: 481px) {
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  h3,
+  .k__h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .k__grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+  }
+
+  .k__grid img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .k__temoignage {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .k__temoignage img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  .k__form input {
+    width: 90%;
+  }
+
+  fieldset {
+    width: 60%;
+  }
+
+  .k__form .name label,
+.k__form .mail label {
+      margin-bottom: 12px;
+}
+}
