@@ -971,7 +971,7 @@ footer {
 .A__statistics__card, .A__benefices__card , .A__chiffres--block{
     border-radius: 15px;
     min-height: 10vh;
-    min-width: 300px;
+    min-width: 250px;
 }
 
 .A__lastmsg {
@@ -997,4 +997,5 @@ footer {
 .A__impact--map {
   width: 100%;
 }
+
 }
