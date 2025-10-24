@@ -351,7 +351,9 @@ main{
 
  .SecuriteHero__image {
    align-self: center;
-   height: 186px;
+   width: 90%;
+   height: 150px;
+   border-radius: 10px;
  }
 
  .SecuriteHero__button {
@@ -545,6 +547,7 @@ main{
    flex-direction: column;
    gap: 10px;
    margin: 20px;
+   border-radius: 26px;
  }
 
  .SecuriteInfographie_Infographiescard_titre {
@@ -572,10 +575,11 @@ main{
    .SecuriteHero {
      display: flex;
      flex-direction: column;
-     justify-content: space-around;
-     align-items: start;
+     justify-content: center;
      margin-bottom: 20px;
-     margin-left: 60px;
+     margin-left: 0px;
+     padding-left: 20px;
+     padding-right: 20px;
    }
 
    .SecuriteHero__titre {
@@ -593,13 +597,14 @@ main{
      display: flex;
      flex-direction: row-reverse;
      justify-content: space-between;
-     width: 90%;
-     align-items: center;
+     width: 100%;
+     align-items: self-start;
    }
 
    .SecuriteHero__image {
-     height: auto;
-     width: 40%;
+     height: 300px;
+     width: 50%;
+     border-radius: 25px;
    }
 
    .s_devBurt {
@@ -612,6 +617,7 @@ main{
    }
 
    .SecuriteHero__text {
+    line-height: 70px;
      font-size: 24px;
    }
 
@@ -631,7 +637,9 @@ main{
 
    .SecuriteRegulation {
      gap: 30px;
-     margin-left: 10px;
+     width: 100%;
+     padding: 0px;
+     margin-top: 10px;
    }
 
    .SecuriteRegulation__titre {
@@ -647,19 +655,21 @@ main{
    .SecuriteRegulation__titre h1 {
      margin-top: 9px;
      text-align: start;
-     font-size: 25px;
+     font-size: 36px;
    }
    .SecuriteRegulation__description{
-    width: 60%;
+    width: 80%;
     display: flex;
    }
    .SecuriteRegulation__description__text{
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
    }
    .SecuriteRegulation__description__liste{
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    font-size: 18px;
    }
 
    
@@ -677,12 +687,13 @@ main{
    }
    .SecuriteTechnologies__titre h1 {
      text-align: start;
-     font-size: 25px;
+     font-size: 36px;
      
      margin-top: 9px;
    }
 
    .SecuriteTechnologies__titre { 
+    margin-left: 0px;
      display: flex;
      
      gap: 5px;
@@ -694,11 +705,14 @@ main{
    }
    .SecuriteTechnologies__text{
     text-align: center;
+    font-size: 18px;
    }
 
   .SecuriteTechnologies__cards{
     display:flex;
     flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
   }
   
  /************ Responsive Securite Engagement ************/
@@ -706,18 +720,14 @@ main{
 
   .SecuriteEngagement{
    display: flex;
-   justify-content: center;
-   
-   padding: 25px;
-   background-color: #d4a017;   
+   justify-content: space-around;
+   margin: 20px 0px;
   }
   .flex1{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 50%;
-    padding-left: 52px;
-    
-    
   }
   .flex2{
     display: inline;
@@ -740,8 +750,14 @@ main{
     width: 59px;
   }
  .SecuriteEngagement__titre__title{
-  font-size: 25px;
+  font-size: 36px;
   text-align: start;
+ }
+ .SecuriteEngagement__description__text {
+  font-size: 18px;
+ }
+ .SecuriteEngagement__description {
+  
  }
 
  /******** INFOGRAPHIES & CITATION **************/
@@ -792,7 +808,8 @@ main{
  }
  .SecuriteInfographie_Infographies_card{
   background-color: #2B3248;
-  height: 250px;
+  
+  
   margin-right: 50px;
   padding: 20px;
  }
