@@ -282,3 +282,150 @@ footer {
 
 
 /*-------------------------------------------------------------*/
+
+
+.M {
+  width: 90%;
+}
+
+.m-hero {
+  color: #fff;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.m-left {
+  width: 100%;
+}
+
+.m-hero h1 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.m-hero p {
+  color: #ffff;
+}
+
+.annee {
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.step span {
+  color: #b3a75c;
+  font-weight: bold;
+}
+
+.step {
+  color: #fff;
+  background-color: #1b1d2b;
+  padding: 0.6rem 1rem;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-left: #fff 5px solid;
+  margin-top: 1rem;
+}
+
+.m-video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.m-video iframe {
+  width: 90%;
+  height: 300px;
+  border-radius: 10px;
+}
+.m-actu{
+  text-align: left;
+  padding-bottom: 12px;
+  padding-top: 45px;
+  padding-left: 0px;
+}
+.m-cardss { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.m-card {
+
+  border: 1px solid #EDC86A;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.m-card img {
+  width: 100%;
+  height: 200px;                
+  border-radius: 12px;
+}
+
+.m-card h3 {
+  color: #fff;
+  margin: 1rem 0 0.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  min-height: 50px;          
+}
+
+.m-card p {
+  color: #aaa;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: justify;
+  flex-grow: 1;              
+  margin-bottom: 1.5rem;
+  min-height: 100px;         
+}
+
+.m-card a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 30px;
+  border-radius: 30px;
+  border: 1px solid #EDC86A;
+  font-weight: 500;
+}
+
+.m-card a:hover {
+  color: #222228;
+  background-color: #EDC86A;
+  border-color: #ffffff;
+}
+
+
+@media (min-width: 900px) {
+  .m-hero {
+    flex-direction: row; 
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .m-left {
+    width: 48%;
+  }
+
+  .m-video {
+    width: 48%;
+  }
+
+  .m-video iframe {
+    width: 100%;
+    height: 400px;
+  }
+}
+
