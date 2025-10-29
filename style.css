@@ -559,6 +559,7 @@ main{
   .SecuriteEngagement{
    display: flex;
    justify-content: space-around;
+   align-items: center;
    margin: 20px 0px;
   }
   .flex1{
@@ -1231,7 +1232,7 @@ main{
     height: auto;
     padding: 5% 0 5% 0;
     gap: 2vh;
-}
+} 
 .A__chiffres--block {
     border-radius: 15px;
 }
@@ -1533,14 +1534,6 @@ main {
 }
 
 
-.k__grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); 
-    align-self: center;
-    gap: 20px; 
-}
-
-
 
 
 .k__grid {
@@ -1578,9 +1571,6 @@ main {
 
 
 
-.k__card:hover {
-    transform: scale(1.05);
-}
 
 
 
